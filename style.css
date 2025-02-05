@@ -1,0 +1,58 @@
+/* Reset */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+h1 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	background-color: hsl(212, 45%, 89%);
+	font-family: Outfit;
+	
+}
+img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.component-container {
+	max-width: 320px;
+	height: 499px;
+	padding: 16px;
+	border-radius: 16px;
+	background-color: #fff;
+	box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.component-content {
+	margin: 24px 16px;
+}
+.component-title {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+	color: hsl(218, 44%, 22%);
+	margin-bottom: 16px;
+}
+.component-text {
+	font-size: 15px;
+	color: hsl(216, 15%, 48%);
+	text-align: center;
+	letter-spacing: 0.2px;
+	font-weight: 400;
+	line-height: 21px;
+}
